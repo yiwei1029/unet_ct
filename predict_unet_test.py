@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # 测试模式
     net.eval()
     # 读取所有图片路径
-    Test_Data_path = r'D:\unet_ct\demo_unet\Unet\test_image\\'
+    Test_Data_path = r'D:\unet_ct\unet_demo\test_image\\'
     tests_path = glob.glob(Test_Data_path + '*.png')
     print(tests_path)
     # 遍历所有图片

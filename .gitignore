@@ -3,3 +3,4 @@ train_image/
 train_label/
 __pycache__/
 model_pth
+*.rar
